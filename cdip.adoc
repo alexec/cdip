@@ -1,0 +1,110 @@
+= Continuous Delivery in Practice
+:toc:
+
+== Introduction
+
+*Continuous Delivery* is about to change software development and delivery in a fundamental way. The name can be traced to the first principle of the *Agile Manifesto*:
+
+* ``Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.'
+
+*CD* is intimately linked to Agile princples so we'll also be coving this.
+
+Classically, software was specified in a *Requirements Document* written by a *Business Owner*, tested by a *QA* and deployed be a *System Administrator*. With so many parties involved in the most trivial example of a project, it is inevitable that releasing projects would take weeks or months.
+
+These days we want to get our software from the drawing board into production as quickly as possible, yet we do not want to sacrifice anything in the way of quality to do so.
+
+Continuous Delivery is far more that releasing software regularly as you can. It's a set of practises and principles for software delivery that help us achieve this goal, and it's the bringing together of mindsets in both the technology and business parts of an organisation that enables them.
+
+This book is a practical guide to putting into place the technicaly processes that are required to achieve this. It deals with specific technical issues that will arise when attemting to do so.
+
+== Who Should Read This Book
+
+This book is aimed at software developers and teachnical leaders what are looking to improve their ability to deliver valuable software. Perhaps you're starting out on a new project, or you are looking to improve your support of an existing application?
+
+== Perrequisites
+
+There is an expectation that your are familiar with software development and have worked on devlepment projects before.
+
+== Agile
+
+TODO
+
+== Tools & Technologies
+
+This book in Java centric. This is because we want to give the most value to the most people. This means we make our choices based on the more popular and widely used technolgies. To keep this accessible, we will prefer using *Open Source Software (OSS)*. Where OSS in not availble, we'll try to use free software. There are, always cases (Internet Explorer) where we'll have to use proprietory software. We'll be using the following tools and technolgies and you'll want to have at least a passing familiarity with them:
+
+* Linux
+* Git/SVN
+* Open JDK
+* JUnit
+* Maven & Any
+* MySQL/Postgres
+* Liquibase
+* Selenium
+* Jenkins
+* Tomcat
+* Puppet
+* Ansible
+* Vagrant
+* Docker
+* Splunk
+* AppDynamics
+
+== Configuration Control
+
+== Dependency Management
+
+== Development Practises
+
+=== Feature Switches
+
+=== Backwards/Forwards Compatibility
+
+=== API Versioning
+
+== Test Driven Development
+
+== Development Environments
+
+=== Faking External Systems
+
+=== System to Know State
+
+== Continuous Integration
+
+=== Branch Builds
+
+== Database Schema Migration
+
+== Automated Deployment
+
+=== Smoke Tests
+
+== Automating Acceptance Tests
+
+=== Performance
+
+==== Running on a Grid
+
+=== Stability
+
+== Continuous Load Testing
+
+== Release Builds
+
+=== Semantic Versioning
+
+== Monitoring
+
+=== Log Aggregation
+
+=== Automated Alerts
+
+=== Application Intellegence and Interogation
+
+== Releases
+
+=== Zero-Downtime vs Rolling vs Downtime Releases
+
+=== Hidden Live
+
